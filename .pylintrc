@@ -1,0 +1,21 @@
+[MASTER]
+ignore=.venv,.gitignore,test_search.py
+ignore-patterns=^\.gitignore$
+
+[MESSAGES CONTROL]
+disable=
+    C0114,
+    C0115,
+    C0116,
+    C0209,
+    R0903,
+    R0912,
+    R0914
+
+
+
+[FORMAT]
+max-line-length=120
+
+[REPORTS]
+score=yes
